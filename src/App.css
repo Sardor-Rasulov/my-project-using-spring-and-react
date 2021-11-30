@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.brand-name{
+  margin-left: 30px;;
+}
+
+.footer-color {
+  color: aliceblue;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+}
+
+.product-container{
+  margin-top: 50px;
+}
+
+.dairy-product{
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.meat{
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 2px;
+}
+
+.vegetables{
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.asterisk, .product-items{
+  color: red;
+}
+
+.product-items{
+  text-align: justify;
+}
+
+.section-title{
+  text-align: center;
+  padding-top: 15px;
+}
+
+.prduct-area{
+  margin-top: 20px;
+  align-items: center;
+  text-align: justify;
+}
+
+.total-quantity{
+  color: #008000;
+}
+
+.cutIcon{
+  cursor: pointer;
+}
+
+.modal-product-name{
+  color: red;
+}
+
+.popover-expiration-date{
+  font-family: 'Trebuchet MS', sans-serif;
+  color: blueviolet;
+}
+
+.exp-day-message{
+  color: red;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.one-day-left{
+  color: red;
+  font-family: 'Trebuchet MS', sans-serif;
+  animation-name: hoverMsg;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes hoverMsg {
+  0% {color: red;}
+  /* 25%{color: black;} */
+  50%{color: red;}
+  /* 75%{color: black;} */
+  100%{color: black;}
+}
